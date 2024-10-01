@@ -8,7 +8,7 @@ sns.set(style='dark')
 #memuat data
 
 def load_data():
-    df = pd.read_csv("all_data.csv")
+    df = pd.read_csv("dashboard/all_data.csv")
     return df
 
 df = load_data()
